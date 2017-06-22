@@ -4,8 +4,9 @@ This is intended to be a charity project that, once presentable/good enough, wou
 program to students and schools who would need it.
 
 To Do list:
-1. Complete Basic Algebra .java file to be able to do multiple forms of basic algebra
+1. Complete Basic Algebra .java file to be able to do multiple forms of basic algebra (DONE)
 2. Adding more complexe Algebra such as quadratic equations
+3. Creating a GUI for each type of problem 
 
 Ambitous future:
 localisation
