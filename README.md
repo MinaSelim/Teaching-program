@@ -9,5 +9,9 @@ To Do list:
 3. Creating a GUI for each type of problem 
 
 Ambitous future:
-localisation
-different subject (language, history, etc.)
+1. Localisation
+2. Different subject (language, history, etc.)
+
+
+
+All help is welcome.
