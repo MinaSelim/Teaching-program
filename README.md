@@ -5,13 +5,7 @@ program to students and schools who would need it.
 
 To Do list:
 1. Complete Basic Algebra .java file to be able to do multiple forms of basic algebra (DONE)
-2. Adding more complexe Algebra such as quadratic equations
-3. Creating a GUI for each type of problem 
+2. Adding more complexe Algebra such as quadratic equations (done)
+3. Creating a GUI for each type of problem (done by making a GUI that works for each type instead of making GUI for each problem)
 
-Ambitous future:
-1. Localisation
-2. Different subject (language, history, etc.)
-
-
-
-All help is welcome.
+for now this project can be considered complete (maybe I will make an android version later)
