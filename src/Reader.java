@@ -16,6 +16,7 @@ public class Reader
 			CreateFile newfile = new CreateFile(name);
 			newfile.writeToFile(first_line);
 			newfile.closeFile();
+			newfile = null;
 		}							
 		try
 		{
@@ -26,6 +27,7 @@ public class Reader
 			{
 				data[counter++] = read.nextLine();	
 			}			
+			read = null;
 		}
 		catch(Exception e)
 		{
@@ -36,7 +38,7 @@ public class Reader
 		{
 			
 			int max_number = 12;
-			BasicMath math = new BasicMath(2);
+			BasicMath math = new BasicMath(0);
 			for(int counter = 0; counter<data[0].length() ; counter++)
 			{
 				if(data[0].charAt(counter) == ' ')
