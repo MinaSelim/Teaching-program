@@ -4,22 +4,22 @@ import java.util.Scanner;
 public class Reader 
 {
 	private Scanner read;
-	private File config;
+	private File file;
 	private String[] data;
 	
 	
 	public Reader(String name, String first_line, int line_number)
 	{
-		config = new File(name);
-		if(!config.exists())
+		file = new File(name);
+		if(!file.exists())
 		{
-			CreateFile newconfig = new CreateFile(name);
-			newconfig.writeToFile(first_line);
-			newconfig.closeFile();
+			CreateFile newfile = new CreateFile(name);
+			newfile.writeToFile(first_line);
+			newfile.closeFile();
 		}							
 		try
 		{
-			read = new Scanner(config);
+			read = new Scanner(file);
 			data = new String[line_number];
 			int counter = 0;
 			while(read.hasNextLine())
