@@ -37,10 +37,6 @@ public class IntermediateMath extends MainMath
 				display = String.format("%.3f * %.3f =", x, y);
 				System.out.println(display + solution);
 				break;
-		case 3: solution = 1 +2;
-		display = String.format("%.3f + %.3f =", x, y);
-		System.out.println(display + solution);
-		break;
 		default:if(y==0) y++;
 				solution = x*y;
 				double temp = x;
